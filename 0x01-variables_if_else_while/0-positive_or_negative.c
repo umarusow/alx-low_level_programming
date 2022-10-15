@@ -1,9 +1,13 @@
 #include <stdlib.h>
+
 #include <time.h>
+
+#include <stdio.h>
 
 /**
  * main - prints
- * Return: 0.
+ * it is a zero
+ * Return:  Always 0.
  */
 
 int main(void)
