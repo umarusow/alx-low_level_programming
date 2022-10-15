@@ -1,21 +1,18 @@
 #include <stdlib.h>
-
 #include <time.h>
-
 #include <stdio.h>
 
 /**
  * main - prints
- * it is a zero
- * Return:  Always 0.
- */
+ * it positive o
+ * Return: Also 0.
+*/
 
 int main(void)
 {
 	int n;
 
 	srand(time(0));
-
 	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
