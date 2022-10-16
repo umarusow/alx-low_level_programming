@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 * main - prints
-* Return: 0.
+* Return: Always 0.
 */
 int main(void)
 {
@@ -13,8 +13,8 @@ int main(void)
 		if (num == 9)
 			continue;
 
-		putchar('.');
-		putchar('');
+		putchar(',');
+		putchar(' ');
 	}
 
 	putchar('\n')
