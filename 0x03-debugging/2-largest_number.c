@@ -2,7 +2,7 @@
 
 /**
 *largest_number - returns the largest of number
-*@: first integer
+*@a: first integer
 *@b: second integer
 *@c: thied integer
 *Return: largest number
@@ -11,6 +11,7 @@
 int largest_number(int a, int b, int c)
 {
 int largest;
+
 if (a > b && a > c)
 {
 	largest = a;
